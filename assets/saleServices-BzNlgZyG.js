@@ -1,0 +1,1 @@
+import{G as r}from"./index-C8clDulR.js";const n={async create(s){return await r.post("/sales",s)},async list(s={}){return await r.get("/sales",{params:s})},async devolver(s,e){return await r.post(`/sales/${s}/return`,e)}};export{n as s};
